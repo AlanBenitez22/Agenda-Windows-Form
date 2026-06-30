@@ -24,6 +24,7 @@ Ao clicar em uma linha do DataGridView:
 = 
 Foi aplicado a condição para Carregar dados ao clicar na linha dGDados_SelectionChanged preenche automaticamente txtId, txtNome e txtTelefone ao selecionar qualquer linha.
 
+
 -------------------------------------------------------------------------------------------------------------
 
 3. Criar validações antes de inserir ou alterar registros
