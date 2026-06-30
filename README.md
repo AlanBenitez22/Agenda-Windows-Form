@@ -83,3 +83,5 @@ Campos organizados em três GroupBox ("Dados do Contato", "Ações", "Lista de C
 Botões coloridos com ícones emoji no texto (✚ Inserir, ✎ Alterar, 🔍 Localizar, 🗑 Excluir).
 Cabeçalho do DataGridView com fundo azul escuro e texto branco.
 
+<img width="1898" height="977" alt="image" src="https://github.com/user-attachments/assets/03a86c7e-bdf6-4460-b3f2-7174067b831f" />
+
