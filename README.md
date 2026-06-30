@@ -1,5 +1,6 @@
 # Agenda-Windows-Form
 Sobre os desenvolvimentos solicitados pela prof Claudia:
+=
 1. Melhorar a configuração do DataGridView
 O DataGridView deverá ser configurado para proporcionar uma melhor experiência ao usuário.
 Requisitos
@@ -7,7 +8,6 @@ Requisitos
 • Selecionar a linha inteira ao clicar em qualquer célula
 
 1 - Resolução:
-=
 Alteração realizada nas cores e tipo de fonte, além de aplicar o ReadOnly = true e SelectionMode = FullRowSelect dentro do ConfigurarDataGridView().
 
 ------------------------------------------------------------------------------------------------------------------
