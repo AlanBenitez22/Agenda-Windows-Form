@@ -44,7 +44,6 @@ Telefone com mínimo de 10 dígitos numéricos.
 
 
 4. Implementar máscara para telefone
-=
 O campo telefone deverá possuir uma máscara de entrada.
 Requisitos
 Substituir o TextBox comum por um componente adequado.
@@ -52,7 +51,8 @@ Exemplo de formato:
 (00) 00000-0000
 
 4 - Resolução:
-=o TextBox foi substituído por um MaskedTextBox com a propriedade Mask = "(00) 00000-0000".
+=
+o TextBox foi substituído por um MaskedTextBox com a propriedade Mask = "(00) 00000-0000".
 
 5. Solicitar confirmação antes da exclusão
 O sistema deverá pedir confirmação antes de excluir qualquer registro.
@@ -62,7 +62,8 @@ Ao clicar em Excluir:
 • Permitir continuar apenas se o usuário confirmar.
 
 5 - Resolução:
-= Foi aplicado o MessageBox com MessageBoxButtons.YesNo antes de deletar; o registro só é excluído se o usuário clicar em Sim.
+= 
+Foi aplicado o MessageBox com MessageBoxButtons.YesNo antes de deletar; o registro só é excluído se o usuário clicar em Sim.
 
 6. Melhorias visuais
 Realizar melhorias na aparência geral da aplicação.
@@ -75,7 +76,8 @@ Implementar pelo menos três das melhorias abaixo:
 • Alterar cores do cabeçalho do DataGridView.
 
 6 - Rosolução
-= Fonte Segoe UI 9.5pt aplicada ao Form e a todos os controles.
+= 
+Fonte Segoe UI 9.5pt aplicada ao Form e a todos os controles.
 Campos organizados em três GroupBox ("Dados do Contato", "Ações", "Lista de Contatos").
 Botões coloridos com ícones emoji no texto (✚ Inserir, ✎ Alterar, 🔍 Localizar, 🗑 Excluir).
 Cabeçalho do DataGridView com fundo azul escuro e texto branco.
