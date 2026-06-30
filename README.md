@@ -10,7 +10,7 @@ Requisitos
 =
 Alteração realizada nas cores e tipo de fonte, além de aplicar o ReadOnly = true e SelectionMode = FullRowSelect dentro do ConfigurarDataGridView().
 
-
+------------------------------------------------------------------------------------------------------------------
 2. Carregar os dados da linha selecionada nos campos de edição
 Ao selecionar um registro na grade, os dados deverão ser carregados automaticamente para os campos de texto evento dGDados_SelectionChanged preenche automaticamente txtId, txtNome e txtTelefone ao selecionar qualquer linha.
 
@@ -23,6 +23,8 @@ Ao clicar em uma linha do DataGridView:
 2 - Resolução:
 = 
 Foi aplicado a condição para Carregar dados ao clicar na linha dGDados_SelectionChanged preenche automaticamente txtId, txtNome e txtTelefone ao selecionar qualquer linha.
+
+-------------------------------------------------------------------------------------------------------------
 
 3. Criar validações antes de inserir ou alterar registros
 O sistema não deverá permitir o cadastro de informações inválidas.
@@ -42,7 +44,7 @@ método ValidarCampos() chamado antes de Inserir e Alterar, verificando:
 Nome não vazio (String.IsNullOrWhiteSpace).
 Telefone não vazio.
 Telefone com mínimo de 10 dígitos numéricos.
-
+----------------------------------------------------------------------------------------------------------------
 
 4. Implementar máscara para telefone
 O campo telefone deverá possuir uma máscara de entrada.
@@ -55,6 +57,8 @@ Exemplo de formato:
 =
 o TextBox foi substituído por um MaskedTextBox com a propriedade Mask = "(00) 00000-0000".
 
+-----------------------------------------------------------------------------------------------------------------
+
 5. Solicitar confirmação antes da exclusão
 O sistema deverá pedir confirmação antes de excluir qualquer registro.
 Requisitos
@@ -65,6 +69,8 @@ Ao clicar em Excluir:
 5 - Resolução:
 = 
 Foi aplicado o MessageBox com MessageBoxButtons.YesNo antes de deletar; o registro só é excluído se o usuário clicar em Sim.
+
+-------------------------------------------------------------------------------------------------------------------
 
 6. Melhorias visuais
 Realizar melhorias na aparência geral da aplicação.
