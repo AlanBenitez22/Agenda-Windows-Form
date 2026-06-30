@@ -21,7 +21,8 @@ Ao clicar em uma linha do DataGridView:
 • O campo Telefone deve ser preenchido.
 
 2 - Resolução:
-= Foi aplicado a conndição para Carregar dados ao clicar na linha dGDados_SelectionChanged preenche automaticamente txtId, txtNome e txtTelefone ao selecionar qualquer linha.
+= 
+Foi aplicado a conndição para Carregar dados ao clicar na linha dGDados_SelectionChanged preenche automaticamente txtId, txtNome e txtTelefone ao selecionar qualquer linha.
 
 3. Criar validações antes de inserir ou alterar registros
 O sistema não deverá permitir o cadastro de informações inválidas.
