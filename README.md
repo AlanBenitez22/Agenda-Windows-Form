@@ -39,10 +39,10 @@ Caso alguma validação falhe:
  
 3 - Resolução
 método ValidarCampos() chamado antes de Inserir e Alterar, verificando:
-
 Nome não vazio (String.IsNullOrWhiteSpace).
 Telefone não vazio.
 Telefone com mínimo de 10 dígitos numéricos.
+
 ----------------------------------------------------------------------------------------------------------------
 
 4. Implementar máscara para telefone
