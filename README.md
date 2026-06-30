@@ -38,7 +38,7 @@ Caso alguma validação falhe:
 • Impedir a gravação dos dados.
  
 3 - Resolução
-método ValidarCampos() chamado antes de Inserir e Alterar, verificando:
+método ValidarCampos() chamado antes de Inserir e Alterar, verificando: 
 Nome não vazio (String.IsNullOrWhiteSpace).
 Telefone não vazio.
 Telefone com mínimo de 10 dígitos numéricos.
