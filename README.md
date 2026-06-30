@@ -76,7 +76,7 @@ Implementar pelo menos três das melhorias abaixo:
 • Inserir ícones nos botões.
 • Alterar cores do cabeçalho do DataGridView.
 
-6 - Rosolução
+6 - Resolução:
 = 
 Fonte Segoe UI 9.5pt aplicada ao Form e a todos os controles.
 Campos organizados em três GroupBox ("Dados do Contato", "Ações", "Lista de Contatos").
